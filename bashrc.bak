@@ -1,0 +1,24 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias rng='ranger'
+alias ls='ls --color=auto'
+alias tut='cd ~/workspace/github.com/IAmRiteshKoushik/tut/ && ls'
+alias dev='cd ~/workspace/github.com/IAmRiteshKoushik/dev/ && ls'
+alias dsa='cd ~/workspace/github.com/IAmRiteshKoushik/dsa/ && ls'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+. "$HOME/.cargo/env"
+
+# Screen-lock
+alias lock='i3lock --color 000000'
+
+# Configuring brightness settings using terminal
+alias bri30='brightnessctl s 30%'
+alias bri60='brightnessctl s 60%'
+alias bri='brightnessctl s 100%'
