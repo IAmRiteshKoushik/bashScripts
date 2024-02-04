@@ -44,10 +44,10 @@ a necessity for these expressions, operators and operands.
 - Equality is checked by `-eq` and not-equal is checked by `-ne`. Rest of the syntax can be found within the file
 - Greater than is by `-gt` and lesser than is `-lt`. This is because `>` and `<` and reserved for redirecting outputs.
 - In order to check for files `-f <filename>` and for directories `-d <dirname>`
-
-Here, we did a little experiment where we checked if htop is available or not. In case it is not 
+- Here, we did a little experiment where we checked if htop is available or not. In case it is not 
 available the installation script makes sure that we install it. (install.sh)
-
+- An alternate way of doing the same would be to use the command `command`. Check out installAlt.sh
+- Read the manual page of the `test` command
 
 ### 5. Exit Codes (exit.sh)
 - 
