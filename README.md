@@ -2,7 +2,7 @@
 
 The following chapters are added :
 
-### 1. Hello World
+### 1. Hello World (intro.sh)
 - It does not matter whether you actually have the `.sh` file extension or not. As long as your 
   script is executable it is okay to have any file extension.
 - A valid script should contain zero or more commands.
@@ -12,7 +12,7 @@ The following chapters are added :
   script file.
 - Finally, the shebang does start with `#` and so do comments. It is the only exception.
 
-### 2. Variables
+### 2. Variables (var.sh)
 - You can setup variables right in your shell with `varname=<var-value>` and then call them 
   using `echo $varname`. But these variables do not persist.
 - You can also use existing commands as variable names like `ls="Hello World"`. They do not 
@@ -33,48 +33,54 @@ The following chapters are added :
 - You can get a list of environment variables by typing `env` in the shell.
 
 
-### 3. Math Functions
+### 3. Math Functions (math.sh)
 - For executing math in the shell, unlike python interactive shell; you need to use "expr" in the  
 beginning to let bash know that it has to evaluate the incoming expression. Also, whitespaces are 
 a necessity for these expressions, operators and operands.
 - `*` is a reserved sign for Wildcard so it needs to be escaped before using as the asterisk for 
   multiplication operations.
 
-### 4. If Statements
+### 4. If Statements (ifelse.sh)
+- Equality is checked by `-eq` and not-equal is checked by `-ne`. Rest of the syntax can be found within the file
+- Greater than is by `-gt` and lesser than is `-lt`. This is because `>` and `<` and reserved for redirecting outputs.
+- In order to check for files `-f <filename>` and for directories `-d <dirname>`
+
+Here, we did a little experiment where we checked if htop is available or not. In case it is not 
+available the installation script makes sure that we install it. (install.sh)
 
 
-### 5. Exit Codes 
+### 5. Exit Codes (exit.sh)
+- 
 
+### 6. While Loops (while.sh)
+- 
 
-### 6. While Loops
+### 7. Universal Update Script (updateScript.sh)
+- 
 
+### 8. For Loops (for.sh)
+- 
 
-### 7. Universal Update Script
+### 9. Filesystem Location for Scripts (filesys.sh)
+- 
 
+### 10. Data Streams (datastreams.sh)
+- 
 
-### 8. For Loops
+### 11. Functions (func.sh)
+- 
 
+### 12. Case Statements (case.sh)
+- 
 
-### 9. Filesystem Location for Scripts
+### 13. Scheduling Jobs (scheduling.sh)
+- 
 
+### 14. Arguments (args.sh)
+- 
 
-### 10. Data Streams
-
-
-### 11. Functions
-
-
-### 12. Case Statements
-
-
-### 13. Scheduling Jobs (Part 01, 02)
-
-
-### 14. Arguments
-
-
-### 15. Creating a Backup Script (Project)
-
+### 15. Creating a Backup Script (backupScript.sh)
+- 
 
 
 All files with relevant file names can be found within this folder.
