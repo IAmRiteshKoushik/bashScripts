@@ -1,9 +1,14 @@
 #!/bin/bash/
 
-echo "List of projects:"
-echo "Proj 1 : NightwatchJS and NeutralinoJS"
-echo "Proj 2 : ACE Web Portal (backend)"
-echo "Proj 3 : iDEA Dashboard"
-echo "Proj 4 : Amrita Maps"
-echo "Proj 5 : CertiMint (NFT)"
-echo "Proj 6 : Inventory Management Sys (backend)"
+echo "(FN) 30/4 - DSA"
+echo "(AN) 02/4 - FE"
+echo "(FN) 03/4 - COA"
+echo "(FN) 04/4 - OS"
+echo "(FN) 06/4 - TOC"
+echo "(FN) 07/4 - Math"
+
+# echo ""
+# echo ""
+# echo ""
+# echo ""
+# echo ""

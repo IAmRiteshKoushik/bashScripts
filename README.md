@@ -50,7 +50,11 @@ available the installation script makes sure that we install it. (install.sh)
 - Read the manual page of the `test` command
 
 ### 5. Exit Codes (exit.sh)
-- 
+- When you run a command, you can check for its status code by following it with `echo $?` as the 
+  exit code is stored in the shell variable "?" for the previous command.
+- Usully successfully exited commands have `0` as the exit code and failed ones have `2` but there 
+  are more nuanced exit codes for failed operations.
+
 
 ### 6. While Loops (while.sh)
 - 
