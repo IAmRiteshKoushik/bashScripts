@@ -1,14 +1,10 @@
 #!/bin/bash/
 
-echo "(FN) 30/4 - DSA"
-echo "(AN) 02/4 - FE"
-echo "(FN) 03/4 - COA"
-echo "(FN) 04/4 - OS"
-echo "(FN) 06/4 - TOC"
-echo "(FN) 07/4 - Math"
-
-# echo ""
-# echo ""
-# echo ""
-# echo ""
-# echo ""
+echo "1 June - Cul"
+echo "3 June - Math"
+echo "5 June - Psych"
+echo "7, 8 June - SSK"
+echo "10 June - DSA"
+echo "12 June - COA"
+echo "14 June - OS"
+echo "18 June - TOC"
